@@ -1,13 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/main.css">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Dashboard Kit</title>
+  </head>
+
+  <body class="js-body">
+    <div class="box d-flex">
+      <div class="box__left col-3 bg-dark py-5">
+        <a
+          class="d-flex align-item-center mb-5 ps-4 text-decoration-none"
+          href="./index.html"
+        >
+          <img
+            src="./images/site-logo.svg"
+            width="32"
+            height="32"
+            alt="site logo img"
+          />
+          <span class="d-inline-block ms-3 fw-bold fs-5 text-secondary"
+            >Dashboard Kit</span
+          >
+        </a>
+        <input
+          class="visually-hidden input1"
+          type="radio"
+          name="radio"
+          id="inp1"
+        />
+        <label class="d-flex align-items-center p-4 lable1" for="inp1">
+          <span class="d-inline-block icon">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 16 16"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.523 8.941H8.544l4.648 4.648c.178.178.47.192.653.02a7.044 7.044 0 0 0 2.15-4.143.471.471 0 0 0-.472-.525Zm-.465-1.906A7.076 7.076 0 0 0 8.494.472.473.473 0 0 0 8 .948V7.53h6.581a.473.473 0 0 0 .477-.494Zm-8.47 1.906V1.962a.471.471 0 0 0-.525-.472A7.054 7.054 0 0 0 .004 8.717c.128 3.769 3.373 6.86 7.144 6.812a7.004 7.004 0 0 0 3.978-1.295c.232-.165.248-.507.046-.708L6.588 8.94Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <span class="d-inline-block ms-4 fw-normal fs-5 text-secondary"
+            >Overview</span
+          >
+        </label>
+        <input
+          class="visually-hidden input2"
+          type="radio"
+          name="radio"
+          id="inp2"
+          checked
+        />
+        <label class="d-flex align-items-center p-4 lable2" for="inp2">
+          <span class="d-inline-block icon">
+            <svg
+              width="20"
+              height="20"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3.556 5.333h8.888v5.334H3.556V5.333ZM14.666 8c0 .736.598 1.333 1.334 1.333V12c0 .736-.597 1.333-1.333 1.333H1.333A1.333 1.333 0 0 1 0 12V9.333a1.333 1.333 0 1 0 0-2.666V4c0-.736.597-1.333 1.333-1.333h13.334C15.403 2.667 16 3.264 16 4v2.667c-.736 0-1.333.597-1.333 1.333Zm-1.333-2.889a.667.667 0 0 0-.666-.667H3.333a.667.667 0 0 0-.666.667v5.778c0 .368.298.667.666.667h9.334a.667.667 0 0 0 .666-.667V5.11Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <span class="d-inline-block ms-4 fw-normal fs-5 text-secondary"
+            >Tickets</span
+          >
+        </label>
+        <input
+          class="visually-hidden input3"
+          type="radio"
+          name="radio"
+          id="inp3"
+        />
+        <label class="d-flex align-items-center p-4 lable3" for="inp3">
+          <span class="d-inline-block icon">
+            <svg
+              width="20"
+              height="20"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#a)">
+                <path
+                  d="M5.502 14.198a1 1 0 0 0 .167.553l.534.803a1 1 0 0 0 .833.446h1.928a1 1 0 0 0 .833-.446l.534-.803a.998.998 0 0 0 .167-.553L10.5 13h-5l.002 1.198ZM2.5 5.5a5.47 5.47 0 0 0 1.361 3.618c.517.59 1.324 1.82 1.632 2.858l.003.024h5.008l.003-.024c.308-1.038 1.116-2.269 1.632-2.858A5.5 5.5 0 0 0 7.983 0C4.795.01 2.5 2.593 2.5 5.5ZM8 3a2.503 2.503 0 0 0-2.5 2.5.5.5 0 1 1-1 0C4.5 3.57 6.07 2 8 2a.5.5 0 1 1 0 1Z"
+                  fill="currentColor"
+                />
+              </g>
+              <defs>
+                <clipPath>
+                  <path fill="#fff" d="M0 0h16v16H0z" />
+                </clipPath>
+              </defs>
+            </svg>
+          </span>
+          <span class="d-inline-block ms-4 fw-normal fs-5 text-secondary"
+            >Tickets</span
+          >
+        </label>
+        <input
+          class="visually-hidden input4"
+          type="radio"
+          name="radio"
+          id="inp4"
+        />
+        <label class="d-flex align-items-center p-4 lable4" for="inp4">
+          <span class="d-inline-block icon">
+            <svg
+              width="20"
+              height="20"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.4 7.2c.883 0 1.6-.717 1.6-1.6C4 4.718 3.283 4 2.4 4 1.518 4 .8 4.718.8 5.6c0 .883.718 1.6 1.6 1.6Zm11.2 0c.883 0 1.6-.717 1.6-1.6 0-.882-.717-1.6-1.6-1.6-.883 0-1.6.718-1.6 1.6 0 .883.717 1.6 1.6 1.6Zm.8.8h-1.6c-.44 0-.838.178-1.128.465A3.657 3.657 0 0 1 13.55 11.2h1.65a.8.8 0 0 0 .8-.8v-.8c0-.882-.717-1.6-1.6-1.6ZM8 8c1.547 0 2.8-1.252 2.8-2.8 0-1.547-1.253-2.8-2.8-2.8a2.799 2.799 0 0 0-2.8 2.8C5.2 6.748 6.452 8 8 8Zm1.92.8h-.207c-.52.25-1.098.4-1.713.4s-1.19-.15-1.713-.4H6.08a2.88 2.88 0 0 0-2.88 2.88v.72a1.2 1.2 0 0 0 1.2 1.2h7.2a1.2 1.2 0 0 0 1.2-1.2v-.72A2.88 2.88 0 0 0 9.92 8.8Zm-5.593-.335A1.595 1.595 0 0 0 3.2 8H1.6C.717 8 0 8.718 0 9.6v.8a.8.8 0 0 0 .8.8h1.647a3.666 3.666 0 0 1 1.88-2.735Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <span class="d-inline-block ms-4 fw-normal fs-5 text-secondary"
+            >Tickets</span
+          >
+        </label>
+        <input
+          class="visually-hidden input5"
+          type="radio"
+          name="radio"
+          id="inp5"
+        />
+        <label class="d-flex align-items-center p-4 lable5" for="inp5">
+          <span class="d-inline-block icon">
+            <svg
+              width="20"
+              height="20"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm2.994 1.019L9.5 15l-1-4.25L9.5 9h-3l1 1.75-1 4.25-1.494-5.981C2.778 9.125 1 10.947 1 13.2v1.3A1.5 1.5 0 0 0 2.5 16h11a1.5 1.5 0 0 0 1.5-1.5v-1.3c0-2.253-1.778-4.075-4.006-4.181Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <span class="d-inline-block ms-4 fw-normal fs-5 text-secondary"
+            >Tickets</span
+          >
+        </label>
+        <input
+          class="visually-hidden input6"
+          type="radio"
+          name="radio"
+          id="inp6"
+        />
+        <label class="d-flex align-items-center p-4 lable6" for="inp6">
+          <span class="d-inline-block icon">
+            <svg
+              width="20"
+              height="20"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 11.25V.75a.748.748 0 0 0-.75-.75H4a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10.25c.416 0 .75-.334.75-.75v-.5a.756.756 0 0 0-.278-.584c-.131-.482-.131-1.854 0-2.335A.745.745 0 0 0 15 11.25ZM5 4.187C5 4.085 5.084 4 5.188 4h6.625c.103 0 .187.084.187.188v.625a.188.188 0 0 1-.188.187H5.189A.188.188 0 0 1 5 4.812v-.625Zm0 2C5 6.085 5.084 6 5.188 6h6.625c.103 0 .187.084.187.188v.625a.188.188 0 0 1-.188.187H5.189A.188.188 0 0 1 5 6.812v-.625ZM12.919 14H4a.999.999 0 1 1 0-2h8.919c-.06.534-.06 1.466 0 2Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <span class="d-inline-block ms-4 fw-normal fs-5 text-secondary"
+            >Tickets</span
+          >
+        </label>
+        <span class="line"></span>
+        <input
+          class="visually-hidden input7"
+          type="radio"
+          name="radio"
+          id="inp7"
+        />
+        <label class="d-flex align-items-center p-4 lable7" for="inp7">
+          <span class="d-inline-block icon">
+            <svg
+              width="20"
+              height="20"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#a)">
+                <path
+                  d="m15.231 9.866-1.331-.77a6.018 6.018 0 0 0 0-2.193l1.331-.769a.378.378 0 0 0 .172-.437 7.783 7.783 0 0 0-1.71-2.956.376.376 0 0 0-.462-.072l-1.331.768A5.898 5.898 0 0 0 10 2.341V.806a.374.374 0 0 0-.294-.365 7.856 7.856 0 0 0-3.412 0A.374.374 0 0 0 6 .806v1.538A6.084 6.084 0 0 0 4.1 3.44l-1.328-.77a.371.371 0 0 0-.463.073A7.736 7.736 0 0 0 .6 5.7a.374.374 0 0 0 .172.437l1.331.77a6.02 6.02 0 0 0 0 2.193l-1.331.769a.378.378 0 0 0-.172.437 7.783 7.783 0 0 0 1.71 2.957c.118.128.312.159.462.071l1.331-.768a5.9 5.9 0 0 0 1.9 1.096V15.2c0 .175.122.328.294.366a7.858 7.858 0 0 0 3.412 0 .374.374 0 0 0 .294-.366v-1.537a6.084 6.084 0 0 0 1.9-1.097l1.331.768c.153.088.344.06.463-.072a7.737 7.737 0 0 0 1.71-2.956.386.386 0 0 0-.176-.44ZM8 10.5A2.503 2.503 0 0 1 5.5 8c0-1.378 1.122-2.5 2.5-2.5s2.5 1.122 2.5 2.5-1.122 2.5-2.5 2.5Z"
+                  fill="currentColor"
+                />
+              </g>
+              <defs>
+                <clipPath>
+                  <path fill="#fff" d="M0 0h16v16H0z" />
+                </clipPath>
+              </defs>
+            </svg>
+          </span>
+          <span class="d-inline-block ms-4 fw-normal fs-5 text-secondary"
+            >Tickets</span
+          >
+        </label>
+        <input
+          class="visually-hidden input8"
+          type="radio"
+          name="radio"
+          id="inp8"
+        />
+        <label class="d-flex align-items-center p-4 lable8" for="inp8">
+          <span class="d-inline-block icon">
+            <svg
+              width="20"
+              height="20"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#a)">
+                <path
+                  d="M5.035 11.332c-.272-.271-.13-.195-.785-.37a2.254 2.254 0 0 1-.795-.416l-1.417 3.476a.5.5 0 0 0 .482.688l1.646-.063L5.3 15.845a.5.5 0 0 0 .826-.155L7.75 11.7c-.338.188-.714.299-1.103.299-.61 0-1.182-.237-1.613-.668Zm8.928 2.69-1.418-3.476a2.249 2.249 0 0 1-.795.416c-.658.176-.514.1-.785.37A2.267 2.267 0 0 1 9.352 12c-.389 0-.765-.11-1.104-.3l1.627 3.989a.5.5 0 0 0 .826.155l1.133-1.196 1.646.062a.5.5 0 0 0 .483-.688Zm-3.744-3.397c.477-.486.532-.444 1.212-.63a1.27 1.27 0 0 0 .89-.905c.233-.887.173-.78.81-1.43.318-.323.442-.795.326-1.237-.233-.886-.234-.763 0-1.65a1.296 1.296 0 0 0-.325-1.237c-.638-.65-.578-.543-.811-1.43a1.27 1.27 0 0 0-.89-.906c-.871-.237-.766-.175-1.405-.825A1.243 1.243 0 0 0 8.811.043c-.87.238-.75.238-1.622 0a1.243 1.243 0 0 0-1.215.332c-.638.65-.533.588-1.405.825a1.27 1.27 0 0 0-.89.906c-.233.887-.172.78-.81 1.43a1.296 1.296 0 0 0-.326 1.237c.234.886.234.762 0 1.65-.116.442.008.914.326 1.237.638.65.577.543.81 1.43.117.442.456.787.89.906.7.19.752.16 1.212.629.414.42 1.058.496 1.555.182a1.24 1.24 0 0 1 1.329 0c.496.314 1.14.239 1.554-.182ZM5.052 5.499c0-1.657 1.32-3 2.948-3s2.948 1.343 2.948 3-1.32 3-2.948 3-2.948-1.343-2.948-3Z"
+                  fill="currentColor"
+                />
+              </g>
+              <defs>
+                <clipPath>
+                  <path fill="#fff" d="M0 0h16v16H0z" />
+                </clipPath>
+              </defs>
+            </svg>
+          </span>
+          <span class="d-inline-block ms-4 fw-normal fs-5 text-secondary"
+            >Tickets</span
+          >
+        </label>
+      </div>
+      <div class="box__right col-9 py-5 px-4">
+        <div
+          class="box__header d-flex align-items-center justify-content-between mb-5"
+        >
+          <h2 class="h2">Tickets</h2>
+          <div class="d-flex align-items-center ms-auto">
+            <div
+              class="d-flex align-items-center me-4 py-3 pe-4 border-end search-div"
+            >
+              <input
+                class="search-inp border-color js-search"
+                type="search"
+                placeholder="Search"
+              />
+              <img
+                class="search-img me-3"
+                src="./images/search-icon.svg"
+                width="20"
+                height="20"
+                alt="search icon"
+              />
+              <img
+                class=""
+                src="./images/new-icon.svg"
+                width="20"
+                height="20"
+                alt="new icon"
+              />
+            </div>
+            <div class="d-flex align-items-center">
+              <span class="d-inline-block fw-normal fs-5">Jones Ferdinand</span>
+              <img
+                class="ms-2"
+                src="./images/avatar-img.svg"
+                width="44"
+                height="44"
+                alt="avatar img"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white border rounded-3 big">
+          <div class="d-flex align-items-center mb-5 p-4 pb-0">
+            <h3 class="h3 fs-5">All tickets</h3>
+            <div class="ms-auto">
+              <button class="me-3 btn-default js-default">Asl holat</button>
+              <button class="me-2 btn-sort js-sort">Sort</button>
+              <select class="filter js-filter">
+                <option value="filter" selected disabled>Filter</option>
+                <option value="high">High</option>
+                <option value="normal">Normal</option>
+                <option value="low">Low</option>
+              </select>
+            </div>
+          </div>
+          <div class="d-flex px-4 pb-2">
+            <span class="d-block me-5 fw-bold fs-5 text-black-50"
+              >Ticket details</span
+            >
+            <span class="d-block ms-auto me-5 pe-5">
+              <span class="d-inline-block me-5 fw-bold fs-5 text-black-50"
+                >Customer name</span
+              >
+              <span class="d-inline-block mx-5 fw-bold fs-5 text-black-50"
+                >Date</span
+              >
+              <span class="d-inline-block mx-5 fw-bold fs-5 text-black-50"
+                >Priority</span
+              >
+            </span>
+          </div>
+          <span class="d-block border"></span>
+          <ul class="d-flex flex-column list-unstyled js-list"></ul>
+          <div class="theme none js-bgc"></div>
+          <div class="edite none js-edit">
+            <select class="status js-status">
+              <option value="default" selected disabled>Edit</option>
+              <option value="high">HIGH</option>
+              <option value="normal">NORMAL</option>
+              <option value="low">LOW</option>
+            </select>
+            <button class="save-btn js-save">SAVE</button>
+            <button class="iks js-x">X</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
 </html>
